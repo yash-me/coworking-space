@@ -29,7 +29,7 @@ spec:
     spec:
       containers:
         - name: analytics-app
-          image: 473589573154.dkr.ecr.us-east-1.amazonaws.com/rubric-yash:9
+          image: 473589573154.dkr.ecr.us-east-1.amazonaws.com/rubric-yash:12
           imagePullPolicy: Always
           livenessProbe:
             httpGet:
